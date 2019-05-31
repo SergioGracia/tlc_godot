@@ -1,0 +1,35 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://scenes/Button.gd" type="Script" id=1]
+
+[node name="Main" type="Node2D"]
+editor/display_folded = true
+
+[node name="Panel" type="Panel" parent="."]
+margin_left = 14.0
+margin_top = 18.0
+margin_right = 794.0
+margin_bottom = 587.0
+
+[node name="Label" type="Label" parent="Panel"]
+margin_left = 8.0
+margin_top = 5.0
+margin_right = 770.0
+margin_bottom = 239.0
+text = "TLC_godot 1.0.0
+
+A whatever prod. feat nostalgia...
+
+sergio@sgracia.es"
+align = 1
+valign = 1
+autowrap = true
+uppercase = true
+
+[node name="Button" type="Button" parent="Panel"]
+margin_left = 339.0
+margin_top = 211.5
+margin_right = 427.0
+margin_bottom = 264.5
+text = "Startoh?!"
+script = ExtResource( 1 )

@@ -1,0 +1,26 @@
+[gd_scene load_steps=2 format=2]
+
+[sub_resource type="CubeMesh" id=1]
+
+[node name="Game3d" type="Spatial"]
+
+[node name="Panel" type="Panel" parent="."]
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+margin_left = -395.0
+margin_top = -125.0
+margin_right = 395.0
+
+[node name="Camera" type="Camera" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2.47079 )
+far = 23.8
+
+[node name="MeshInstance" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 11.195, -0.0105686, 0, -13.7205 )
+cast_shadow = 2
+use_in_baked_light = true
+mesh = SubResource( 1 )
+skeleton = NodePath("")
+material/0 = null

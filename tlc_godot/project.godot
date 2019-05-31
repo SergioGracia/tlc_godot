@@ -16,7 +16,7 @@ _global_script_class_icons={
 [application]
 
 config/name="tlc_godot"
-run/main_scene="res://scenes/Game.tscn"
+run/main_scene="res://scenes/Game3d.tscn"
 boot_splash/image="res://assets/img/quad.png"
 config/icon="res://assets/img/quad.png"
 
@@ -30,4 +30,5 @@ window/size/resizable=false
 quality/driver/driver_name="GLES2"
 vram_compression/import_etc=true
 vram_compression/import_etc2=false
+environment/default_clear_color=Color( 0.733333, 1, 0.686275, 1 )
 environment/default_environment="res://default_env.tres"
